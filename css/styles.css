@@ -207,6 +207,9 @@ background-color:var(--hover-btn-color) ;
 
 /*-------------FEATURE---------------*/
 
+.feature{
+  padding-bottom: 0;
+}
 .feature-list{
   display: flex;
 }
