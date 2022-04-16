@@ -24,8 +24,8 @@
   --address-color:#FFFFFF;/* колір адреси*/
   --contacts-color: rgba(255, 255, 255, 0.6);/* колір пошти тел*/
   --portfolio-fon-color:#FFFFFF;/* колір фону карток портфоліо*/
-  --top-margin:30px;
-  --bottom-margin:30px;
+  --first-margin:30px;
+  --second-margin:30px;
  }
 body {
   font-family: 'Roboto',sans-serif;
@@ -176,7 +176,7 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 
-margin-bottom: var(--bottom-margin);
+margin-bottom: var(--second-margin);
 
 color: var(--top-title-color);
 }
@@ -214,7 +214,7 @@ background-color:var(--hover-btn-color) ;
   display: flex;
 }
 .feature-item + .feature-item{
- margin-left: var(--top-margin);
+ margin-left: var(--first-margin);
 }
 
 .feature-bottom-title{
@@ -253,7 +253,7 @@ color: var(--bottom-title-color);
   display: flex;
 }
 .work-item + .work-item{
-  margin-left: var(--top-margin);
+  margin-left: var(--first-margin);
 }
 
 /*---------------team--------------------*/
@@ -268,13 +268,16 @@ color: var(--bottom-title-color);
   display: flex;
 }
 .team-item + .team-item{
-  margin-left: var(--top-margin);
+  margin-left: var(--first-margin);
 }
 .team-item{
   background-color: var(--team-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
 }
 .team-img{
-  margin-bottom: var(--bottom-margin);
+  margin-bottom: var(--second-margin);
 }
 .team-bottom-title{
 font-family: 'Roboto';
