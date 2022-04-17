@@ -405,6 +405,7 @@ background-color:var(--bacground-btn-color);
 .portfolio-content{
 padding: 20px 24px;
 border: 1px solid #EEEEEE;
+border-top: none;
 }
 .portfolio-bottom-title {
 font-family: 'Roboto';
