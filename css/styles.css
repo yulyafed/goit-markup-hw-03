@@ -86,8 +86,6 @@ img {
 /*-----------HEADER-----------*/
 
 .header{
-  padding-top: 24px;
-  padding-bottom: 25px;
   border: 1px solid #ECECEC;
 }
 .header .container{
@@ -104,9 +102,11 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 
+padding-top: 24px;
+padding-bottom: 24px;
+
 color: var(--logo-top-color);
 
-margin-right: 93px;
 }
 .accent{
 font-family: 'Raleway','Tahoma', sans-serif;
@@ -120,12 +120,16 @@ color: var(--accent-color)
 .header-list{
 display: flex;
 align-items: center;
+margin-left: 93px;
 }
 .header-link{
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+
+display: inline-block;
+padding:32px;
 
 color: var(--header-color);
 }
@@ -148,6 +152,9 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+
+display: inline-block;
+padding: 32px;
 color: var(--top-text-color);
 }
 .header-link-contacts:hover,
@@ -172,9 +179,11 @@ font-family: 'Roboto';
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+text-align: center;
+width: 696px;
+display: inline-block;
 
 margin-bottom: var(--second-margin);
 
@@ -208,10 +217,13 @@ background-color:var(--hover-btn-color) ;
 /*-------------FEATURE---------------*/
 
 .feature{
-  padding-bottom: 0;
+  padding-bottom: 47px;
 }
 .feature-list{
   display: flex;
+}
+.feature-item{
+  width: 270px;
 }
 .feature-item + .feature-item{
  margin-left: var(--first-margin);
@@ -237,6 +249,9 @@ color: var(--top-text-color);
 
 /*-----------------work----------------*/
 
+.work{
+  padding-top: 47px;
+}
 .work-title,
 .team-top-title{
 font-family: 'Roboto';
@@ -275,6 +290,8 @@ color: var(--bottom-title-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   overflow: hidden;
+
+  padding-bottom: 30px;
 }
 .team-img{
   margin-bottom: var(--second-margin);
@@ -296,8 +313,6 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-
-padding-bottom: 30px;
 
 color: var(--bottom-text-color);
 }
@@ -368,6 +383,7 @@ text-align: center;
 letter-spacing: 0.03em;
 cursor: pointer;
 
+padding: 6px 22px;
 border: 1px solid #F5F4FA;
 border-radius: 4px;
 
